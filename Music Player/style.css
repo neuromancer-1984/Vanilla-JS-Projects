@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Nunito:wght@500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Nunito:wght@500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quattrocento+Sans&family=Varela&display=swap');
+body {
+    background-color: azure;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    font-family: "Boldonse", system-ui;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+    font-weight: lighter;
+}
+
+.brand img {
+    height: 44px;
+    width: 44px;
+    padding: 0 5px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 75vh;
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myProgressBar {
+    width: 80vw;
+}
